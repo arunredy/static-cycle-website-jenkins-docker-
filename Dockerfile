@@ -1,5 +1,5 @@
 FROM httpd
-MAINTAINER deepthivagu
-LABEL my first app 
+MAINTAINER name Arun
+LABEL My first image
 EXPOSE 80
 COPY . /usr/local/apache2/htdocs/
